@@ -1,0 +1,8 @@
+document.getElementById("title").innerHTML = "History of Blogging"
+document.getElementById("p1").innerHTML = "Blogging started in 1994 when a Swarthmore student Justin Hall created Links.net which is the first blog ever created.  During that time, the term blog was not yet devised, thus Links.net was referred as Personal Homepage. "
+document.getElementById("p2").innerHTML = "The term”weblog” was only used in 1997 as internet users began using personal websites as a medium for idea sharing. In 1999, the term “weblog” was finally shortened to “blog” by programmer Peter Merholz which is the term that we are using up until this day."
+document.getElementById("p3").innerHTML = "Popularity of blogging raised as few different blogging platforms open to the internet users.  In 1999, the Evan Williams and Meg Hourihan, started Blogger. Blogger gained great popularity after its release and it is now considered largely responsible for mainstream blogging."
+document.getElementById("p4").innerHTML = "Blogs became greatly popular in the mid- 2000’s. Blogging reached the majority of the internet users and became a popular platform for sharing information."
+document.getElementById("p5").innerHTML = "References"
+document.getElementById("p6").innerHTML = "http://www.webdesignerdepot.com/2011/03/a-brief-history-of-blogging/"
+document.getElementById("p7").innerHTML = "http://www.creativebloq.com/web-design/history-blogging-51411626"

@@ -1,0 +1,192 @@
+<html>
+    <head>
+        
+        <title>Modern Internet</title>
+        
+        <meta name="author" content="Aldaine U. Talan">
+        <meta name="description" content="History of the Internet">
+        <meta="viewport" content"width=device-width, initial-scale=1">
+       
+        <style>
+        
+            .whole {
+                width: 1200px ;
+                height: 3000px ;
+                margin: auto ;
+                background: linear-gradient(to bottom, #DCDCDC, #A9A9A9)
+            } 
+            
+            .foot {
+                position: relative;
+                bottom: -325px;
+                z-index: 0;
+                margin: auto;
+                width: 1160px;
+                height: 25px;
+                background-color: black;
+                color: white;
+                font-family: Verdana, sans-serif;
+                font-style: italic;
+                font-size: 20px;
+                text-align: right;
+                padding: 20px;
+                border-top: solid white;
+            }
+            
+            .header { 
+                position: relative;
+                background-image: url("https://s-media-cache-ak0.pinimg.com/736x/40/32/9b/40329bcebcc089fb865d815eced46e33.jpg");
+                background-color: #FAEBD7l;
+                width: 1000px ;
+                height: 250px ;
+                font-size: 100px;
+                font-family: Impact, sans-serif;
+                text-align: center;
+                line-height: 0px;
+                padding-top: 90px ;
+                color: black;
+                margin: auto;
+                top: 60px;
+        	}
+        	
+        	#modern {
+        	    font-weight: lighter;
+        	    color: white;
+        	}
+        	
+        	#internet {
+        	    line-height: 170px;
+        	}
+        	.nav {
+                position: fixed;
+                top: 10px;
+                left: auto;
+                z-index: 1;
+                width: 1200px;
+                height: 50px;
+                background-color: #000000;  
+            }
+            
+            .nav ul li {
+                float: left;
+                position: relative;
+                top: -16px;
+                z-index: 2;
+            }
+            
+            .nav ul li a {
+                display: block;
+                width: 280px;
+                height: 40px;
+                font-size: 18px;
+                font-family: Verdana, sans-serif;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                background-color: #000000;
+                padding-top: 10px;
+            }
+            
+            .nav ul li a:hover {
+                background-color: white;
+                color: #000000;
+            }
+            
+            .nav ul ul {
+                display: none;
+                position: relative;
+                top: 16px;
+                left: -40px;
+            }
+            
+            .nav ul ul a {
+            	display: inherit;
+            }
+             
+            .nav ul li:hover > ul {
+                display:inherit;
+            }
+             
+
+            .nav ul ul li {
+                min-width:170px;
+                float:none;
+                display:block;
+                position: relative;
+            }
+
+            .mid {
+                position: relative;
+                top: 100px;
+                z-index: 0;
+                margin: auto;
+                width: 900px;
+                height: 2200px;
+                border-radius: 20px 20px;
+                background-color: white;
+                color: black;
+                font-family: Verdana, sans-serif;
+                padding: 50px;
+                padding-top: 20px;
+            }
+            
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div class="whole">
+            
+            <div class="header" href="#">
+                    <div id="modern">
+                        MODERN
+                    </div>
+                <br>
+                    <div id="internet">
+                        INTERNET
+                    </div>
+            </div>
+            
+            <div class="nav">
+            	<ul>
+            		<li><a href="index.html">Home</a></li>
+            		<li><a href="about-contact/about.html">About</a></li>
+            		<li><a href="#">Topics</a>
+            			<ul>
+            				<li><a href="index.html">Overview</a></li>
+            				<li><a href="blogging.html">Blogging</a></li>
+            				<li><a href="email.html">Email</a></li>
+            				<li><a href="microblog-social-networking.html">Microblog/ Social Network</a></li>
+                            <li><a href="network-protocols.html">Network Protocols</a></li>
+                            <li><a href="search-engines.html">Search Engines</a></li>
+                            <li><a href="video-streaming.html">Video Streaming</a></li>
+            			</ul>
+            		</li>
+            		<li><a href="about-contact/contact.html">Contact</a></li>
+            	</ul>
+            </div>
+        
+            <div class="mid">
+                <h1 id="title"></h1>
+                <br>
+                <hr>
+                <br>
+                <br>
+                
+                <p id="p1"></p>
+				<p id="p2"></p>
+				<p id="p3"></p>
+				<p id="p4"></p>
+                <p id="p5"></p>
+				<p id="p6"></p>
+				
+                    <script src="data/protocol.js"></script>
+                
+                
+            </div>
+            
+            <div class="foot">CMSC 2 Midyear 2015 + Aldaine Talan</div>
+    </body>
+</html>

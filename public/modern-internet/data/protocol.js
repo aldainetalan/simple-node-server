@@ -1,0 +1,7 @@
+document.getElementById("title").innerHTML = "Network Protocols"
+document.getElementById("p1").innerHTML = "The IP protocol, is the main protocol that makes the Internet work. The protocol sets up the entire system of IP addresses and data transfer."
+document.getElementById("p2").innerHTML = "IPv4 is just one revision of that protocol, which became the standard in 1981 and has been used ever since. However, this becomes inefficient as the number of internet users increased."
+document.getElementById("p3").innerHTML = "IPv6 is the sixth revision to the Internet Protocol that replaced the IPv4. This protocol works similarly to IPv4 in that it provides the unique, numerical IP addresses necessary for Internet-enabled devices to communicate."
+document.getElementById("p4").innerHTML = "References"
+document.getElementById("p5").innerHTML = "http://www.makeuseof.com/tag/ipv6-ipv4-care-user-makeuseof-explains/"
+document.getElementById("p6").innerHTML = "http://mashable.com/2011/02/03/ipv4-ipv6-guide/"

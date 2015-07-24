@@ -1,0 +1,8 @@
+document.getElementById("title").innerHTML = " Email"
+document.getElementById("p1").innerHTML = "What is E-mail?"
+document.getElementById("p2").innerHTML = "E-mail is an electronic message that is sent from one device to another."
+document.getElementById("p3").innerHTML = "How Does Email Work?"
+document.getElementById("p4").innerHTML = "Email works through SMTP or Simple Mail Transfer Protocol. To receive an e-mail, a person is required to secure an account on a mail server (Yahoo Mail, Gmail, etc.). When you send an e-mail message, your computer routes it to an SMTP server which is responsible in forwarding the message to the recipient’s mail server and storing it until the recipient retrieves the email."
+document.getElementById("p5").innerHTML = "References"
+document.getElementById("p6").innerHTML = "http://www.learnthenet.com/learn-about/how-email-works/index.php?p=02"
+document.getElementById("p7").innerHTML = "http://computer.howstuffworks.com/e-mail-messaging/email.htm"

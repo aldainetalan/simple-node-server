@@ -1,0 +1,5 @@
+document.getElementById("title").innerHTML = "History of Video Streaming"
+document.getElementById("p1").innerHTML = "According to The Blog Herald, the biggest change online has been the emergence of video streaming though."
+document.getElementById("p2").innerHTML = "Once Youtube was launched 2005 the complete internet landscape changed. Nowadays around 69% of all internet users also watch streaming or download videos. Many video streaming sites emerged in the past five years and had been greatly popularized among young internet users."
+document.getElementById("p3").innerHTML = "References"
+document.getElementById("p4").innerHTML = "http://www.blogherald.com/2010/10/27/history-of-online-video/"

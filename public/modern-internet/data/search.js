@@ -1,0 +1,5 @@
+document.getElementById("title").innerHTML = "Search Engines"
+document.getElementById("p1").innerHTML = "Search engines functions through links which allows search engines’ automated robots, called “spiders” to reach billions of interconnected documents on the web."
+document.getElementById("p2").innerHTML = "According to Moz, once the engines find these pages, they decipher the code from them and store selected pieces in massive databases, to be recalled later when needed for a search query. To accomplish the monumental task of holding billions of pages that can be accessed in a fraction of a second, the search engine companies have constructed datacenters all over the world."
+document.getElementById("p3").innerHTML = "References"
+document.getElementById("p4").innerHTML = "https://moz.com/beginners-guide-to-seo/how-search-engines-operate"
