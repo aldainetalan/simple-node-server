@@ -1,0 +1,3 @@
+document.getElementById("title").innerHTML = "Overview"
+document.getElementById("p1").innerHTML = "This webpage is all about the modern internet. "
+document.getElementById("p2").innerHTML = "Explore this page and find more about the modern internet under Topics. Discover social networking, blogging, video streaming and search engine work and how they were developed through our great modern developers. "

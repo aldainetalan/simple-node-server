@@ -1,7 +1,11 @@
 <html>
     <head>
         
-        <title>History of the Internet</title>
+        <title>Modern Internet</title>
+        
+        <meta name="author" content="Aldaine U. Talan">
+        <meta name="description" content="History of the Internet">
+        <meta="viewport" content"width=device-width, initial-scale=1">
        
         <style>
         
@@ -19,18 +23,19 @@
                 margin: auto;
                 width: 1160px;
                 height: 25px;
-                background-color: #FF7F50;
+                background-color: black;
                 color: white;
                 font-family: Verdana, sans-serif;
                 font-style: italic;
                 font-size: 20px;
                 text-align: right;
                 padding: 20px;
+                border-top: solid white;
             }
             
             .header { 
                 position: relative;
-                background-image: url("https://s-media-cache-ak0.pinimg.com/736x/b7/e8/7a/b7e87ab3f06b22d8c7c5df4f037fbe8a.jpg");
+                background-image: url("https://s-media-cache-ak0.pinimg.com/736x/40/32/9b/40329bcebcc089fb865d815eced46e33.jpg");
                 background-color: #FAEBD7l;
                 width: 1000px ;
                 height: 250px ;
@@ -42,17 +47,15 @@
                 color: black;
                 margin: auto;
                 top: 60px;
-            }
-            
-        	#small {
-        	    font-size: 60px;
-        	    color: #FF7F50;
-        	    text-align: center;
-        	    line-height: 140px;
+        	}
+        	
+        	#modern {
+        	    font-weight: lighter;
+        	    color: white;
         	}
         	
         	#internet {
-        	    line-height: 0px;
+        	    line-height: 170px;
         	}
         	.nav {
                 position: fixed;
@@ -61,7 +64,7 @@
                 z-index: 1;
                 width: 1200px;
                 height: 50px;
-                background-color: #FF7F50;  
+                background-color: #000000;  
             }
             
             .nav ul li {
@@ -80,13 +83,13 @@
                 color: white;
                 text-decoration: none;
                 text-align: center;
-                background-color: #FF7F50;
+                background-color: #000000;
                 padding-top: 10px;
             }
             
             .nav ul li a:hover {
                 background-color: white;
-                color: #FF7F50;
+                color: #000000;
             }
             
             .nav ul ul {
@@ -127,24 +130,6 @@
                 padding-top: 20px;
             }
             
-            #overview {
-                text-align: center;
-                font-family: Impact, sans-serif;
-                font-size: 80px;
-                color: black;
-                font-weight: lighter;
-            }
-            
-            #body {
-                text-align: justify;
-                font-family: Verdana, sans-serif;
-                font-size: 15px;
-                width: 700px;
-                height: 1400px;
-                padding: 50px;
-                background-color: #F0F8FF;
-                margin: auto;
-            }
             
         </style>
         
@@ -155,10 +140,8 @@
         <div class="whole">
             
             <div class="header" href="#">
-                HISTORY 
-                <br>
-                    <div id="small">
-                        OF THE
+                    <div id="modern">
+                        MODERN
                     </div>
                 <br>
                     <div id="internet">
@@ -169,27 +152,35 @@
             <div class="nav">
             	<ul>
             		<li><a href="index.html">Home</a></li>
-            		<li><a href="#">About</a></li>
+            		<li><a href="about-contact/about.html">About</a></li>
             		<li><a href="#">Topics</a>
             			<ul>
             				<li><a href="index.html">Overview</a></li>
-            				<li><a href="world-war-2.html">World War 2</a></li>
-            				<li><a href="early-protocols.html">Early Protocols</a></li>
-            				<li><a href="the-first-internet.html">The First Internet</a></li>
-                            <li><a href="early-world-wide-web.html">Early World Wide Web</a></li>
+            				<li><a href="blogging.html">Blogging</a></li>
+            				<li><a href="email.html">Email</a></li>
+            				<li><a href="microblog-social-network.html">Microblog/ Social Network</a></li>
+                            <li><a href="network-protocols.html">Network Protocols</a></li>
+                            <li><a href="search-engines.html">Search Engines</a></li>
+                            <li><a href="video-streaming.html">Video Streaming</a></li>
             			</ul>
             		</li>
-            		<li><a href="#">Contact</a></li>
+            		<li><a href="about-contact/contact.html">Contact</a></li>
             	</ul>
             </div>
         
             <div class="mid">
-                <h1 id="overview">Overview</h1>
+                <h1 id="title"></h1>
                 <br>
                 <hr>
                 <br>
                 <br>
-                <p id="body">*insert paragraphs here*</p>
+                
+                <p id="p1"></p>
+				<p id="p2"></p>
+            
+                    <script src="data/index.js"></script>
+                
+                
             </div>
             
             <div class="foot">CMSC 2 Midyear 2015 + Aldaine Talan</div>
